@@ -1,38 +1,659 @@
-.App {
+.main_top {
+  background-color: #f25c29;
+  text-align: center;
+  padding: 6px;
+  font-size: 18px;
+}
+.latest-image-box img {
+  width: 242px;
+}
+.latest_m {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.latest_m a {
+  color: #f25c29;
+  font-size: 17px;
+  text-decoration: none;
+}
+.txt-333 {
+  color: #333333;
+  padding-left: 33px;
+  font-weight: 400;
+}
+
+element.style {
+}
+.google-company-details ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 2px;
+}
+
+.fs32 {
+  font-size: 32px;
+}
+
+.txt-gray {
+  color: #777777;
+}
+
+.latest-image-box {
+  background: #fff;
+  border: 1px solid #f1ebe2;
+  border-radius: 5px;
+  box-shadow: 0px 3px 9.2px 0.8px rgba(35, 31, 32, 0.08);
+  padding: 9px;
+  height: 77%;
+}
+.product-name {
+  margin-top: 20px;
+}
+.coin_row {
+  margin-top: 60px !important;
+  margin-left: 18px !important;
+}
+.coin_h {
+  margin-top: 9px !important;
+  color: #f25c29;
+}
+.coin_h p {
+  color: gray;
+}
+.coin_container {
+  background: #f6f6f6;
+}
+
+/* .main_nav {
+  display: flex;
+  gap: 28px;
+} */
+.search_bar input {
+  /* border: none; */
+  height: 46px;
+  width: 278px;
+}
+.main_top p {
+  color: #fff;
+}
+.SearchBtn {
+  height: 45px;
+}
+.Login a:hover {
+  color: #f25c29;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.Register {
+  border-left: 2px solid gainsboro;
+}
+.trusted {
+  font-size: 21px;
+}
+.Register a:hover {
+  color: #f25c29;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nav_ul li a {
+  color: #353535;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: 7px;
+}
+.cart {
+  color: #353535;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav_link {
+  border-right: 1px solid #464f5a !important;
+  padding: 11px 38px 13px 2px !important;
+
+  color: #fff !important;
+}
+.navbar_m {
+  position: relative;
+  left: 18rem;
+}
+
+.nav_ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 17px;
+  color: black;
+  list-style-type: none;
+}
+
+.header_top {
+  padding-left: 0px;
+  display: flex;
+  gap: 22px;
+}
+
+.main_header {
+  position: relative;
+  left: 2rem;
+  /* height: 32px; */
+}
+
+.menu_top {
+  display: flex;
+  gap: 24px;
+}
+.menu_hover li a:hover {
+  background-color: #f25c29;
+  color: #fff;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.head-org-bold {
+  color: #f25c29;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottle {
+  background: #f6f6f6;
+  padding-left: 11px;
+}
+/* .header_h{
+  height: 51px !important;
+} */
+.bottle_text a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.bottle_text a:hover {
+  color: #f25c29;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bottle_img {
+  width: 250px;
+}
+.product button {
+  background: orange;
+  color: #fff;
+  border: none;
+}
+.btn-org {
+  background: #f25c29;
+  color: #fff;
+  font-size: 17px;
+  padding: 6px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+
+.btn-google {
+  background: #f25c29;
+  color: #fff;
+  font-size: 17px;
+  padding: 6px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-org:hover {
+  background-color: #f25c29;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+.product_btn {
+  background: #f25c29;
+  transition: all 0.5s;
+  width: 370px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.product_btn a {
+  text-decoration: none;
+}
+
+.btn_buy {
+  position: relative;
+  top: -108px;
+}
+.navbar-light {
+  background-color: #343a40;
+}
+
+.btn_buy:hover {
+  background-color: #f25c29;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+  border: none;
+}
+
+.ajant_img {
+  width: 370px;
+  margin-right: 10px;
+}
+.Product_shope {
+  margin-right: 112px;
+}
+.txt-org {
+  color: #f25c29;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn-ors {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  background: #f25c29;
+}
+
+.Blogs_btn {
+  color: #f25c29;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  right: 26rem;
+  margin-top: 20px;
+}
+.brands_row {
+  margin-left: 34px !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.lt-gray-bg {
+  background: #f6f6f6;
+}
+.text-right {
+  text-align: right !important;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+.main_recently{
+display: flex;
+justify-content: center;
+}
+
+.Blogs_btns {
+  margin-left: 42px;
+}
+
+.txt-org:hover {
+  text-decoration: none;
+  color: #f25c29;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.bor-rad-rt-25 {
+  border-top-right-radius: 25px;
+}
+
+.lt-org-bg {
+  background: #e4730d;
+}
+.navbar_dark {
+  height: 51px;
+}
+
+.view_btn {
+  position: relative;
+  top: -55px;
+}
+
+.txt-or:hover {
+  color: #f25c29;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.txt-or {
+  font-size: 20px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.mh110 {
+  min-height: 110px;
+  position: relative;
+  top: -6rem;
+  left: 15px;
+}
+.AJANTA {
+  margin-top: 110px;
+  position: relative;
+  top: -4rem;
+  text-align: center;
+  color: currentColor;
+}
+
+.post_center {
+  position: relative;
+  top: 1rem;
+}
+.shadow-post {
+  box-shadow: 0px 3px 14px 2px rgba(35, 31, 32, 0.08);
+  margin-top: 55px;
+}
+.inter_case {
+  margin-top: 35px;
+}
+
+.shadow {
+  box-shadow: 0px 3px 14px 2px rgba(35, 31, 32, 0.08);
+}
+.ajant_img {
+  box-shadow: 0px 3px 14px 2px rgba(35, 31, 32, 0.08);
+}
+
+.txt-black {
+  color: #000;
+  font-weight: bold;
+}
+.product_btn a {
+  text-decoration: none;
+}
+.product_black {
+  transition: all 0.5s;
+  width: 370px;
+  background-color: black;
+
+  font-size: 17px;
+}
+
+.product_black a {
+  text-decoration: none;
+}
+.main_popular {
+  width: 270px;
+  text-align: center;
+}
+.botle_img {
+  text-align: center;
+}
+
+.product_black a {
+  color: #fff;
+}
+.popular_row {
+  text-align: center;
+}
+.arrow_next{
+  font-size: 70px !important;
+  color: #333333;
+  font-weight: bold;
+  border: 2px solid black; 
+  height: 51px;
+  border-radius: 50px !important;
+  width: 66px;
+  position: relative;
+  left: 91px;
+}
+.arrow_prev{
+  color: #333333;
+  font-weight: bold; 
+  border: 2px solid black; 
+  height: 50px;
+  border-radius: 40px !important;
+  width: 66px;
+  position: relative;
+  right: 90px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .bottle_img {
+    width: 354px;
   }
+  .post_center {
+    position: relative;
+    top: 1rem;
+    right: 19px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .brands_row {
+    margin-left: 0px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .main_header {
+    left: 0px !important;
   }
+  .header_top {
+    background-color:#464f5a  !important;
+    gap: 0px !important;
+    padding-left: 10px !important;
+    margin-top: 6px !important;
+  }
+  .botle_img {
+    text-align: center;
+  }
+  .main_popular {
+    width: 354px;
+    text-align: center;
+  }
+  .popular_row {
+    text-align: center;
+  }
+  .main_inter {
+    font-size: 27px !important;
+    text-align: center !important;
+  }
+
+  .main_inters {
+    font-size: 27px !important;
+    text-align: center !important;
+  }
+
+  .main_inter {
+    font-size: 27px !important;
+    text-align: center !important;
+  }
+  .menu_hover {
+    width: 71% !important;
+  }
+  .navbar-light {
+    background-color: gainsboro !important;
+  }
+  .latest-image-box{
+    background: #fff;
+    border: 1px solid #f1ebe2;
+    border-radius: 5px;
+    box-shadow: 0px 3px 9.2px 0.8px rgba(35, 31, 32, 0.08);
+    height: 77%;
+  }
+  .latest-image-box img {
+    width: 347px;
+  }
+  .menu_hover li a:hover {
+    background-color: #f25c29;
+    color: #fff;
+  }
+  .txt-333 {
+    color: #333333;
+    padding-left: 33px;
+    font-weight: 400;
+    margin-top: 26px;
+    margin-left: 42px;
+}
+/* .navbar_m {
+  position: relative;
+  left: 18rem;
+  top: -247px;
+} */
+}
+
+
+
+
+@media (max-width: 992px) {
+  .bottle_img {
+    width: 354px;
+  }
+  .post_center {
+    position: relative;
+    top: 1rem;
+    right: 19px;
+}
+  .brands_row {
+    margin-left: 0px !important;
+  }
+  .main_header {
+    left: 0px !important;
+  }
+  .header_top {
+    background-color:#464f5a  !important;
+    gap: 0px !important;
+    padding-left: 10px !important;
+    margin-top: 6px !important;
+  }
+  .botle_img {
+    text-align: center;
+  }
+  .main_inter {
+    font-size: 27px !important;
+    text-align: center !important;
+  }
+  .main_popular {
+    width: 354px;
+
+    text-align: center;
+  }
+  .popular_row {
+    text-align: center;
+  }
+  .menu_hover {
+    width: 71% !important;
+  }
+  .navbar-light {
+    background-color:gainsboro !important;
+  }
+  .latest-image-box{
+    background: #fff;
+    border: 1px solid #f1ebe2;
+    border-radius: 5px;
+    box-shadow: 0px 3px 9.2px 0.8px rgba(35, 31, 32, 0.08);
+    height: 77%;
+  }
+  .latest-image-box img {
+    width: 347px;
+  }
+  .menu_hover li a:hover {
+    background-color: #f25c29;
+    color: #fff;
+  }
+  .txt-333 {
+    color: #333333;
+    padding-left: 33px;
+    font-weight: 400;
+    margin-top: 26px;
+    margin-left: 42px;
+}
+/* .navbar_m {
+  position: relative;
+  left: 18rem;
+  top: -247px;
+} */
+}
+
+@media (max-width: 768px) {
+  .bottle_img {
+    width: 354px;
+  }
+  .post_center {
+    position: relative;
+    top: 1rem;
+    right: 19px;
+}
+.txt-333 {
+  color: #333333;
+  padding-left: 33px;
+  font-weight: 400;
+  margin-top: 26px;
+  margin-left: 42px;
+}
+  .brands_row {
+    margin-left: 0px !important;
+  }
+  .main_header {
+    padding-left: 0px !important;
+  }
+  .header_top {
+    background-color:#464f5a !important;
+    gap: 0px !important;
+    padding-left: 10px !important;
+    margin-top: 6px !important;
+  }
+  .main_inter {
+    font-size: 27px !important;
+    text-align: center !important;
+  }
+  .botle_img {
+    text-align: center;
+  }
+  .main_popular {
+    width: 354px;
+  }
+  .popular_row {
+    text-align: center;
+  }
+  .menu_hover {
+    width: 71% !important;
+  }
+  .navbar-light {
+    background-color: gainsboro !important;
+  }
+  .latest-image-box{
+    background: #fff;
+    border: 1px solid #f1ebe2;
+    border-radius: 5px;
+    box-shadow: 0px 3px 9.2px 0.8px rgba(35, 31, 32, 0.08);
+    height: 77%;
+  }
+  .latest-image-box img {
+    width: 347px;
+  }
+  .menu_hover li a:hover {
+    background-color: #f25c29;
+    color: #fff;
+  }
+  /* .navbar_m {
+    position: relative;
+    left: 18rem;
+    top: -247px;
+  } */
 }
